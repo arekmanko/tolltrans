@@ -553,7 +553,49 @@ margin-right: 20px;
         }
         
 /* action container - end */
+/* opinie container - start*/
+.opinie{
+  display: flex;
+  margin-top: 10px;
+  
+  justify-content:space-between;
+  padding: 0 200px 0 200px;
 
+  
+  }
+.opinia {
+
+  padding: 5px;
+  text-align: center;
+  width: 250px;
+  vertical-align: top;
+
+  margin: 0;
+}
+.opinia-opis h1{
+  color: var(--color-1);
+}
+.avatar-logo-container img{
+  border-radius: 50%;
+  border: var(--accent-color) solid 4px;
+}
+.opinia-opis {
+  text-align: center;
+  padding: 10px;
+}
+.opinia-text{
+  font-style: italic;
+  color: var(--color-1);
+  text-align: center;
+  
+}
+@media(max-width: 800px){
+.opinie {
+  flex-direction: column;
+  display: block;
+}
+}
+/* opinie container - end*/
 /* powody -start */
 .powody-section {
   margin-top: 30px;
