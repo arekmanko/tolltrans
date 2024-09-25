@@ -806,16 +806,17 @@ nav svg {
 }
 .kontakt-right{
  
-  max-width: 50%;
+  max-width: 40%;
+ 
   padding: 0;
   margin: 0;
-
+  position: absolute;
+  right: 0;
  
 }
 .kontakt-right img {
-  position: absolute;
-  width: 40%;
-  right: 0;
+  max-height: 400px;
+ 
 }
 .kontakt-dane{
   display: flex;
