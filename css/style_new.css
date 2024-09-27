@@ -323,8 +323,8 @@ nav svg {
 .zespol-img img {
   border-radius: 50%;
   border: #44003e solid 5px;
-  width: 200px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 .zespol-details {
@@ -1009,6 +1009,91 @@ nav svg {
 }
 
 /*kontakt - end*/
+
+
+/* usługi - start*/
+
+.uslugi-header {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+  max-width: 65%;
+}
+
+.uslugi-header-h1 {
+  color: var(--color-1);
+  margin-bottom: 30px;
+  font-size: 3vw;
+}
+
+.uslugi-header-h2{
+  font-size: 2vw;
+}
+.uslugi-header-typy {
+  font-size: 2vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.uslugi-header-typy ul{
+  margin-left: 40px;
+  font-size: 3vw;
+  margin-bottom: 30px;
+  list-style-type: square;
+}
+
+.uuslugi-header-typy p{
+  font-size: 1vw;
+}
+
+.transport-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-1);
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: calc(30vw);
+    display: flex;
+  background-image: url("../images/zespolzarzad.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-clip: content-box;
+}
+.transport-header-h1 {
+  font-size: 8vw;
+  color: var(--text-color);
+}
+.transport-opis{
+  padding: 40px;
+  width: 70%;
+}
+.transport-opis p{
+  font-size: 1vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-indent: 30px;
+  text-align: justify;
+}
+
+.transport-opis h1{
+  color: var(--color-1);
+  font-size: 2vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.transport-opis ul{
+  font-size: 1vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+/* usługi - end*/
+
 /* footer - start */
 footer {
   background-color: var(--color-1);
