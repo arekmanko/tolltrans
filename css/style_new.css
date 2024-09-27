@@ -9,6 +9,7 @@
   --color-job-description: rgb(54, 2, 45);
   --color-footer-phone: rgb(255, 255, 0);
   --color-action-motto: rgb(254, 189, 242);
+  --color-motto-shadow: rgb(167, 151, 164);
 }
 
 /* color definition - end */
@@ -397,7 +398,7 @@ nav svg {
   margin-top: 20px;
   margin-bottom: 30px;
   padding-top: 50px;
-  /* Height of the navbar */
+ 
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -432,12 +433,18 @@ nav svg {
 
 .action-container-left h3 {
   display: block;
-  color: var(--color-action-motto);
+  /*color: var(--color-action-motto);*/
+  color: var(--color-1);
   margin: 10px 0;
   text-transform: uppercase;
-  font-size: 1.2vw;
-  text-shadow: 2px 2px 4px #000000;
+  font-size: 1.3vw;
+  /*text-shadow: 2px 2px 1px #000000;*/
+  text-shadow: -2px -2px 5px var(--color-motto-shadow),
+  2px 2px 5px  var(--color-motto-shadow),
+  -2px 2px 5px  var(--color-motto-shadow),
+  2px -2px 5px  var(--color-motto-shadow);
   /* Delikatny cień */
+  letter-spacing: 3px;
 }
 
 .action-container-left a {
@@ -458,13 +465,17 @@ nav svg {
 }
 
 .action-container-right h2 {
-  color: var(--color-action-motto);
+  color: var(--color-1);
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 1.3vw;
-  text-shadow: 2px 2px 4px #000000;
+  /*text-shadow: 2px 2px 4px #000000;*/
   /* Delikatny cień */
+  text-shadow: -2px -2px 5px var(--color-motto-shadow),
+  2px 2px 5px  var(--color-motto-shadow),
+  -2px 2px 5px  var(--color-motto-shadow),
+  2px -2px 5px  var(--color-motto-shadow);
 }
 
 .action-container-right ul {
@@ -476,6 +487,7 @@ nav svg {
   text-shadow: 2px 2px 4px #000000;
   /* Delikatny cień */
   padding: 0;
+  margin-top: 20px;
 
 
 }
