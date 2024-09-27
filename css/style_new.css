@@ -1042,8 +1042,8 @@ nav svg {
   list-style-type: square;
 }
 
-.uuslugi-header-typy p{
-  font-size: 1vw;
+.uslugi-header-typy p{
+  font-size: 2vw;
 }
 
 .transport-header {
@@ -1056,7 +1056,71 @@ nav svg {
   margin-top: 20px;
   width: 100%;
   height: calc(30vw);
-    display: flex;
+  display: flex;
+  background-image: url("../images/zespolzarzad.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-clip: content-box;
+}
+.spedycja-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-1);
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: calc(30vw);
+  display: flex;
+  background-image: url("../images/zespolzarzad.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-clip: content-box;
+}
+.fracht-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-1);
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: calc(30vw);
+  display: flex;
+  background-image: url("../images/zespolzarzad.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-clip: content-box;
+}
+.zaladunek-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-1);
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: calc(30vw);
+  display: flex;
+  background-image: url("../images/zespolzarzad.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-clip: content-box;
+}
+.dokumenty-header {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-1);
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: calc(34vw);
+  display: flex;
   background-image: url("../images/zespolzarzad.jpg");
   background-repeat: no-repeat;
   background-size: 100% ;
@@ -1071,7 +1135,7 @@ nav svg {
   width: 70%;
 }
 .transport-opis p{
-  font-size: 1vw;
+  font-size: 2vw;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
@@ -1087,11 +1151,117 @@ nav svg {
 }
 
 .transport-opis ul{
-  font-size: 1vw;
+  font-size: 2vw;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 30px;
 }
+
+.partnerzy-container {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+}
+.partnerzy-header-h1{
+  color: var(--color-1);
+  font-size: 2vw;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.partnerzy-logos {
+  display: flex;
+  gap: 30px;
+  animation: scroll 20s linear infinite;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.partner-logo {
+  min-width: 150px;
+  height: 50px;
+}
+.partner-logo img {
+  display: inline;
+  height: 50px;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 24)); /* Adjust based on the total number of images and their width */
+  }
+}
+
+@media (max-width: 800px) {
+
+  .uslugi-header-h1 {
+    font-size: 6vw;
+  }
+  
+  .uslugi-header-h2{
+    font-size: 4vw;
+  }
+  .uslugi-header-typy {
+    font-size: 4vw;
+  }
+  
+  .uslugi-header-typy ul{
+    font-size: 6vw;
+  }
+  
+  .uslugi-header-typy p{
+    font-size: 4vw;
+  }
+
+  .transport-opis h1{   
+   font-size: 4vw;
+  }
+  
+  .transport-opis ul{
+    font-size: 4vw;
+  }
+
+  .transport-opis p {
+    font-size: 4vw; /* Większa czcionka dla mniejszych ekranów */
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  .uslugi-header-h1 {
+    font-size: 1.5vw;
+  }
+  
+  .uslugi-header-h2{
+    font-size: 1vw;
+  }
+  .uslugi-header-typy {
+    font-size: 1vw;
+  }
+  
+  .uslugi-header-typy ul{
+    font-size: 1.5vw;
+  }
+  
+  .uslugi-header-typy p{
+    font-size: 1vw;
+  }
+  .transport-opis h1{   
+    font-size: 1vw;
+   }
+   
+   .transport-opis ul{
+     font-size: 1vw;
+   }
+  .transport-opis p {
+    font-size: 1vw; /* Mniejsza czcionka dla dużych ekranów */
+  }
+}
+
 /* usługi - end*/
 
 /* footer - start */
