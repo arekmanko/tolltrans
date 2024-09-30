@@ -1045,6 +1045,14 @@ nav svg {
 .uslugi-header-typy p{
   font-size: 2vw;
 }
+.uslugi-header-typy a {
+  text-decoration: none;
+}
+
+.uslugi-header-typy a:hover {
+  color: var(--color-action-motto);
+}
+
 
 .transport-header {
   text-align: center;
