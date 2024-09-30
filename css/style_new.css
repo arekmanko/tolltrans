@@ -1181,10 +1181,11 @@ nav svg {
 
 .partnerzy-logos {
   display: flex;
-  gap: 30px;
+  gap: 100px;
   animation: scroll 20s linear infinite;
   height: 50px;
   margin-bottom: 20px;
+  margin-left: 100%;
 }
 
 .partner-logo {
@@ -1194,13 +1195,12 @@ nav svg {
 .partner-logo img {
   display: inline;
   height: 50px;
+  margin: 20px;
 }
 @keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
+
   100% {
-    transform: translateX(calc(-250px * 24)); /* Adjust based on the total number of images and their width */
+    transform: translateX(calc(-330px * 24)); /* Adjust based on the total number of images and their width */
   }
 }
 
