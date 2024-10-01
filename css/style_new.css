@@ -359,6 +359,27 @@ nav svg {
   margin: 5px;
 }
 
+@media(max-width: 800px) {
+
+  .zespol-header {
+    max-width: 95%;
+  }
+  .zespol-header-h1 {
+ 
+    font-size: 6vw;
+  }
+  
+  .zespol-header-h2{
+    font-size: 4vw;
+  }
+  .zespol-header-p {
+    font-size: 4vw;
+
+  
+  }
+  
+}
+
 /* zespol - end */
 
 /* action container - start */
