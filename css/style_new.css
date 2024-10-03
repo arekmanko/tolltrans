@@ -1323,18 +1323,18 @@ footer {
   display: inline-block;
   font-size: 1.2em;
   color: var(--text-color);
-  padding: 40px;
+  padding: 20px;
   vertical-align: top;
-
-
+  width: 400px;
 }
 
 .footer-phones {
   display: inline-block;
   color: var(--text-color);
   text-decoration: none;
-  padding: 40px;
+  padding: 20px;
   vertical-align: top;
+  width: 400px;
 }
 
 .footer-phones-title {
@@ -1361,9 +1361,10 @@ footer {
   display: inline-block;
   color: var(--text-color);
   text-decoration: none;
-  padding: 40px;
+  padding: 20px;
   vertical-align: top;
   margin-top: 8px;
+  width: 400px;
 }
 
 .footer-email a {
