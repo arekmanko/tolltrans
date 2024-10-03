@@ -1227,6 +1227,10 @@ nav svg {
 
 @media (max-width: 800px) {
 
+  .uslugi-header {
+    max-width: 95%;
+  }
+
   .uslugi-header-h1 {
     font-size: 6vw;
   }
