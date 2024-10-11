@@ -276,7 +276,7 @@ nav svg {
   width: 100%;
   height: calc(30vw);
   display: flex;
-  background-image: url("../images/biuro.jpg");
+  background-image: url("../images/biuro_small.jpg");
   background-repeat: no-repeat;
   background-size: 100% ;
   background-clip: content-box;
@@ -1405,6 +1405,22 @@ footer {
 
   margin-left: 30px;
   color: var(--accent-color);
+}
+
+@media (max-width: 800px) {
+  .footer-location {
+    width: 100%;
+    padding: 0;
+}
+.footer-email {
+  width: 100%;
+  padding: 0;
+}
+
+.footer-phones {
+  width: 100%;
+  padding: 0;
+}
 }
 
 /* footer - end */
